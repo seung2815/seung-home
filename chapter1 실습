@@ -1,0 +1,13 @@
+package sec06;
+
+import java,until.scanner;
+
+public class Ex0205 {
+	
+	public static void main(String[] args) {
+		double width,height,area;
+		
+		scanner scan= new scanner(System.in);
+	}
+
+}
