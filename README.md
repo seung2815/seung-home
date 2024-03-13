@@ -1,2 +1,1 @@
-# seung-home
-Home
+# seung2815 실습
