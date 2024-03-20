@@ -1,13 +1,13 @@
 package sec06;
 
-import java,until.scanner;
+import java.until.Scanner;
 
 public class Ex0205 {
 	
 	public static void main(String[] args) {
 		double width,height,area;
 		
-		scanner scan= new scanner(System.in);
+		Scanner scan= new Scanner(System.in);
 	}
 
 }
