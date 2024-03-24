@@ -1,0 +1,13 @@
+package sec02;
+
+import java.util.Scanner;
+
+public class Hello00 {
+	
+	public static void main(String[] args) {
+		double width,height,area;
+		
+		Scanner scan= new Scanner(System.in);
+	}
+
+}
