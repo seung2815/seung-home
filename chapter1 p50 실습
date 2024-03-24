@@ -1,6 +1,6 @@
-package sec06;
+package sec02;
 
-public class NunberYypeDemo {
+public class Hello50 {
 	public static void main(String[] args) {
 		int mach;
 		int distance;
