@@ -1,0 +1,29 @@
+package sec04;
+
+class Circle5 {
+
+double radius;
+static int numofCircles =0;
+int numCircles = 0;
+
+public Circle5(double radius) {
+	this.radius = radius;
+	numofCircles++;
+	numCircles++;
+	}
+	public void prin() {
+		System.out.println("Circle 클래스");
+	}
+	static void printStatic() {
+		System.out.println("Circle 클래스 정적 메소드");
+	}
+
+}
+
+public class Hello01 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
