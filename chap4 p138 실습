@@ -1,0 +1,33 @@
+package sec04;
+
+class Phone {
+	String model;
+	int value;
+	
+	void printlnfo() {
+		int localValue;
+		System.out.println("phone "+model +" value=" + this.value);
+	}
+}
+
+public class Hello138 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone myPhone ;
+		myPhone = new Phone();
+		Phone yourPhone = new Phone();
+		
+		myPhone.model = "iphone";
+		myPhone.value = 14;
+		
+		yourPhone.model = "Galaxy";
+		yourPhone.value = 24;
+	
+		System.out.println("myphone "+myPhone.model +" value=" + myPhone.value);
+		yourPhone.printlnfo();
+		
+
+	}
+
+}
