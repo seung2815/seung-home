@@ -1,0 +1,12 @@
+package sec04;
+
+public class CircleDemo2 {
+
+	public static void main(String[] args) {
+		Circle myCircle =  new Circle(10.0);
+		Circle yourCircle = new Circle(5.0);
+		
+		myCircle.print(myCircle);
+		Circle.printStatic(yourCircle);
+	}
+}
