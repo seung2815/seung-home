@@ -1,0 +1,20 @@
+package sec04;
+
+public class Student {
+	String name;
+	int kor, eng, math;
+
+	public Student(String name, int kor, int eng, int math) {
+		this.name = name;
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
+
+	}
+	public int getTotal() {
+		return (kor + eng + math);
+	}
+	public double getAverage() {
+		return kor + eng + math;
+		}
+}
